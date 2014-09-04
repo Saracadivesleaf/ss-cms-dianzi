@@ -1,46 +1,102 @@
-*{
+* {
 	list-style-type: none;
 	margin-top: 0;
 	margin-right: auto;
 	margin-bottom: 0;
-	margin-left: auto;
+	margin-left: auto
 }
-a,img{
+a, img {
 	border: 0;
-	left: 1094px;
+	left: 1094px
 }
-a{color:#3b3b3b;text-decoration:none;font-family:"微软雅黑";}
-a:hover{
-	text-decoration:none;
-	color:#00468C;
+a {
+	color: #3b3b3b;
+	text-decoration: none;
+	font-family: "微软雅黑"
 }
-body{
+a:hover {
+	text-decoration: none;
+	color: #00468C
+}
+body {
 	background: #fff;
 	color: #333;
 	padding: 5px 0;
-	font: 12px/20px "微软雅黑";
+	font: 12px/20px "微软雅黑"
 }
-.clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both;}
-.clearfix{zoom:1;}
-.b_cont{width:1168px;height:382px;overflow:hidden;margin:auto 0 auto;position:relative;}
-.ct_p_05{width:1168px;height:382px;float:left;text-align:center;}
-.scrDotList_wrap{text-align:center;width:100%;position:absolute;bottom:10px;}
-.scrDotList{padding:0 10px;zoom:1;line-height: 0;}
-.scrDotList span{display:inline-block;width:10px;height:10px;background:#000000;cursor:pointer;font-size:0;line-height:0;vertical-align:top;font-size: 0px;margin: 0 5px;}
-.scrDotList span.on{background:#49cff1;}
-
-a.scrArrAbsLeft{position:absolute;left:0;bottom:0px;width:75px;height:75px;background:url(images/0813_ent_zyc_images_v2.png) 0px -136px no-repeat;cursor:pointer;}
-a.scrArrAbsLeft:hover{background-position: 0 -217px;}
-a.scrArrAbsRight{
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both
+}
+.clearfix {
+	zoom: 1
+}
+.b_cont {
+	width: 1168px;
+	height: 382px;
+	overflow: hidden;
+	margin: auto 0 auto;
+	position: relative
+}
+.ct_p_05 {
+	width: 1168px;
+	height: 382px;
+	float: left;
+	text-align: center
+}
+.scrDotList_wrap {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 10px
+}
+.scrDotList {
+	padding: 0 10px;
+	zoom: 1;
+	line-height: 0
+}
+.scrDotList span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #000000;
+	cursor: pointer;
+	font-size: 0;
+	line-height: 0;
+	vertical-align: top;
+	font-size: 0px;
+	margin: 0 5px
+}
+.scrDotList span.on {
+	background: #49cff1
+}
+a.scrArrAbsLeft {
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	width: 75px;
+	height: 75px;
+	background: url(images/0813_ent_zyc_images_v2.png) 0px -136px no-repeat;
+	cursor: pointer
+}
+a.scrArrAbsLeft:hover {
+	background-position: 0 -217px
+}
+a.scrArrAbsRight {
 	position: absolute;
 	right: 0;
 	bottom: 1px;
 	width: 75px;
 	height: 75px;
 	background: url(images/0813_ent_zyc_images_v2.png) no-repeat -83px -136px;
-	cursor: pointer;
+	cursor: pointer
 }
-a.scrArrAbsRight:hover{background-position: -83px -217px;}
+a.scrArrAbsRight:hover {
+	background-position: -83px -217px
+}
 .tabletrfcont {
 	font-size: 24px;
 	font-weight: bold;
@@ -49,7 +105,7 @@ a.scrArrAbsRight:hover{background-position: -83px -217px;}
 	top: 602px;
 	left: 93px;
 	width: 103px;
-	height: 35px;
+	height: 35px
 }
 #divtable {
 	background-color: #DDDDDD;
@@ -62,111 +118,111 @@ a.scrArrAbsRight:hover{background-position: -83px -217px;}
 	padding-top: 20px;
 	padding-right: 0px;
 	padding-bottom: 10px;
-	padding-left: 0px;
+	padding-left: 0px
 }
 #divtable table {
-	color: #00468C;
+	color: #00468C
 }
 #divtable table {
-	font-weight: bold;
+	font-weight: bold
 }
 #divtable table {
-	font-family: "小宋";
+	font-family: "小宋"
 }
 #tablestyle {
 	font-size: 12px;
-	color: #000;
+	color: #000
 }
 #tablestyle {
-	font-weight: normal;
+	font-weight: normal
 }
 #tablestyle {
-	font-size: 14px;
+	font-size: 14px
 }
 #divtable div {
 	background-color: #00468C;
-	height: 40px;
+	height: 40px
 }
 .tablefont {
 	font-size: 24px;
 	color: #00469C;
 	position: absolute;
 	height: auto;
-	width: auto;
+	width: auto
 }
 .tablefont {
 	font-family: "宋体";
-	color: #00468C;
+	color: #00468C
 }
 .tablefontstyle {
 	font-size: 24px;
-	color: #00468C;
+	color: #00468C
 }
 #divleft table {
-	color: #00468C;
+	color: #00468C
 }
 #divleft table tr td {
-	font-size: 24px;
+	font-size: 24px
 }
 .divtablef {
 	color: #00468C;
-	font-size: 24px;
+	font-size: 24px
 }
 #divleft #titlefont {
 	font-size: 24px;
 	color: #00468C;
-	left: 128px;
+	left: 128px
 }
 .divleft {
 	font-size: 24px;
 	color: #00468C;
-	left: 128px;
+	left: 128px
 }
 #divleft div {
 	font-size: 14px;
 	color: #000000;
 	width: 400px;
-	text-align: left;
+	text-align: left
 }
 #divone #divones p {
-	font-family: "黑体";
+	font-family: "黑体"
 }
 #divone #divones p {
-	font-family: "华文仿宋";
+	font-family: "华文仿宋"
 }
 #divone #divones p strong {
 	font-family: "黑体";
-	font-size: 14px;
+	font-size: 14px
 }
 #divone #divones p {
 	font-family: "微软雅黑";
 	text-align: left;
-	font-size: 13px;
+	font-size: 13px
 }
 #divtwos p {
 	font-family: "华文仿宋";
 	font-size: 16px;
 	line-height: 20px;
-	text-align: left;
+	text-align: left
 }
 #divtwos p strong {
 	font-size: 18px;
 	font-family: "黑体";
-	text-align: left;
+	text-align: left
 }
 #divone #divonef #divonefwo {
 	font-family: "华文仿宋";
 	font-size: 18px;
 	color: #FFF;
-	margin: 40px;
+	margin: 40px
 }
 #divtwo #divtwof #divtwofwo {
 	font-family: "华文仿宋";
 	font-size: 18px;
-	color: #FFF;
+	color: #FFF
 }
 #divtable div pre {
-	font-weight: bold;
+	font-weight: bold
 }
 #titleone {
 	font-family: "微软雅黑";
@@ -174,7 +230,7 @@ a.scrArrAbsRight:hover{background-position: -83px -217px;}
 	line-height: 20px;
 	color: #00468C;
 	text-align: left;
-	text-indent: 0.8cm;
+	text-indent: 0.8cm
 }
 #divleft #divthreeful #titletwo {
 	font-family: "微软雅黑";
@@ -182,7 +238,7 @@ a.scrArrAbsRight:hover{background-position: -83px -217px;}
 	line-height: 20px;
 	color: #00468C;
 	text-align: left;
-	text-indent: 0.8cm;
+	text-indent: 0.8cm
 }
 #divfourful #titlethree {
 	font-family: "微软雅黑";
@@ -190,26 +246,26 @@ a.scrArrAbsRight:hover{background-position: -83px -217px;}
 	color: #00468C;
 	text-align: left;
 	font-size: 21px;
-	text-indent: 0.8cm;
+	text-indent: 0.8cm
 }
 #one #divone #divonef p {
-	font-size: 14px;
+	font-size: 14px
 }
 #one #divone #divonef #partone {
 	font-family: "微软雅黑";
 	font-size: 12px;
-	color: #FFF;
+	color: #FFF
 }
 #one #divone #divonef #parttwo {
 	font-family: "微软雅黑";
 	font-size: 24px;
 	color: #FFF;
-	margin-top: 10px;
+	margin-top: 10px
 }
 #one #divtwo #divtwof #partone {
 	font-family: "微软雅黑";
 	font-size: 12px;
-	color: #FFF;
+	color: #FFF
 }
 #one #divtwo #divtwof #parttwo {
 	margin-top: 10px;
@@ -218,13 +274,13 @@ a.scrArrAbsRight:hover{background-position: -83px -217px;}
 	margin-left: 0px;
 	font-family: "微软雅黑";
 	font-size: 24px;
-	color: #FFFFFF;
+	color: #FFFFFF
 }
 #one #divone #divones #onetitle {
 	font-size: 16px;
 	font-family: "微软雅黑";
 	color: #000;
-	text-align: left;
+	text-align: left
 }
 #one #divone #divones #onecontent {
 	margin-top: 10px;
@@ -237,19 +293,19 @@ a.scrArrAbsRight:hover{background-position: -83px -217px;}
 	text-align: left;
 	text-indent: 0.5cm;
 	line-height: 20px;
-	width: auto;
+	width: auto
 }
 #one #divtwo #divtwos #twotitle {
 	font-family: "微软雅黑";
 	font-size: 16px;
 	color: #000;
-	text-align: center;
+	text-align: center
 }
 #one #divtwo #divtwos #twotitle {
 	font-family: "微软雅黑";
 	font-size: 16px;
 	color: #000;
-	text-align: left;
+	text-align: left
 }
 #one #divtwo #divtwos #twocontent {
 	font-family: "宋体";
@@ -261,13 +317,13 @@ a.scrArrAbsRight:hover{background-position: -83px -217px;}
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	line-height: 20px;
+	line-height: 20px
 }
 #divleft #divthreeful li {
 	font-size: 14px;
 	font-family: "微软雅黑";
 	line-height: 20px;
-	color: #000;
+	color: #000
 }
 #divleft #divthreeful #divthreeul {
 	padding: 30px;
@@ -275,7 +331,7 @@ a.scrArrAbsRight:hover{background-position: -83px -217px;}
 	color: #000;
 	font-family: "微软雅黑";
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 20px
 }
 #divfourful #divfourul {
 	padding: 30px;
@@ -284,16 +340,16 @@ a.scrArrAbsRight:hover{background-position: -83px -217px;}
 	font-size: 14px;
 	line-height: 20px;
 	color: #000;
-	text-align: left;
+	text-align: left
 }
 #divtable table tr td {
 	font-family: "微软雅黑";
-	font-weight: normal;
+	font-weight: normal
 }
 #footer {
 	background-color: #00468C;
 	height: 40px;
-	width:90%;
+	width: 90%
 }
 #footer pre {
 	font-size: 13px;
@@ -301,21 +357,19 @@ a.scrArrAbsRight:hover{background-position: -83px -217px;}
 	line-height: 40px;
 	color: #FFF;
 	text-align: right;
-	text-indent: 0.5cm;
+	text-indent: 0.5cm
 }
-.nav ul{
+.nav ul {
 	list-style-type: none;
 	display: block;
-	margin:0 auto 0 auto;
-	width:1024px;
-	overflow: auto;
+	margin: 0 auto 0 auto;
+	width: 1024px;
+	overflow: auto
 }
-.nav li{
-	float: left;
+.nav li {
+	float: left
 }
-
-.nav a:link,div.nav a:visited
-{
+.nav a:link, div.nav a:visited {
 	display: block;
 	width: 102.4px;
 	font-size: 16px;
@@ -325,11 +379,9 @@ a.scrArrAbsRight:hover{background-position: -83px -217px;}
 	text-align: center;
 	padding-top: 6px;
 	padding-bottom: 6px;
-	font-family: "微软雅黑";
+	font-family: "微软雅黑"
 }
-
-div.nav a:hover,div.nav a:active
-{
+div.nav a:hover, div.nav a:active {
 	display: block;
 	width: 102.4px;
 	font-size: 16px;
@@ -338,27 +390,23 @@ div.nav a:hover,div.nav a:active
 	text-decoration: none;
 	text-align: center;
 	padding-top: 6px;
-	padding-bottom: 6px;
+	padding-bottom: 6px
 }
-.left
-{
-	width:111px;
-	height:104px;
-	float:left;
+.left {
+	width: 111px;
+	height: 104px;
+	float: left
 }
-.right
-{
-	width:249px;
-	height:104px;
-	float:right;
+.right {
+	width: 249px;
+	height: 104px;
+	float: right
 }
-.main
-{
-	height:104px;
-	width:818px;
+.main {
+	height: 104px;
+	width: 818px
 }
-.header
-{
-	margin:0px;
-	padding:0px;
+.header {
+	margin: 0px;
+	padding: 0px
 }

@@ -10,8 +10,9 @@ class Article(models.Model):
 		verbose_name = u'文章'
 		verbose_name_plural = verbose_name
 
+	id = models.AutoField(primary_key=True)
 	title = models.CharField(max_length = 100, verbose_name = u'标题')
-	author = models.CharField(max_length = 30, verbose_name = u'作者')
+	author = models.CharField(max_length = 30, blank=True, null=True, verbose_name = u'作者')
 	publish_time = models.DateTimeField(auto_now_add = True, verbose_name = u'发表时间')
 	update_time = models.DateTimeField(auto_now = True, verbose_name = u'更新时间')
 	content = models.TextField(verbose_name = u'文章内容')
@@ -20,3 +21,6 @@ class Article(models.Model):
 
 	def __unicode__(self):
 		return self.title
+
+	def get_absolute_url(self):
+		return '/article/%d' % self.id
