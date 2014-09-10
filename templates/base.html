@@ -1,122 +1,171 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=11;IE=10;IE=9;IE=8;chrome=1" />
-	<meta name="render" content="webkit" />
-	<title>电子系 :: {% block title %}{% endblock %}</title>
-	<link rel="stylesheet" type="text/css" href="/static/css/base.css">
-	<link rel="stylesheet" type="text/css" href="/static/css/widget.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=11;IE=10;IE=9;IE=8;chrome=1" />
+<meta name="render" content="webkit" />
+<title>电子系 :: {% block title %}{% endblock %}</title>
+<link rel="stylesheet" type="text/css" href="/static/css/base.css">
+<script language="javascript" src="/static/js/list.js"></script>
 </head>
 <body>
-<div class="container">
-<div class="l10"></div>
-<div class="header">
-	<a class="ncepu_icon" href="http://www.ncepu.edu.cn/"></a>
-	<a class="banner_title" href="#"></a>
-	<a class="banner_right"></a>
-</div>
-<div class="l2"></div>
-<div class="nav">
-	<ul>
-		<li><a href="">大学首页</a></li>
-		<li><a href="">本站首页</a></li>
-		<li><a href="">新闻中心</a></li>
-		<li><a href="">院系简介</a></li>
-		<li><a href="">系党总支</a></li>
-		<li><a href="">学科建设</a></li>
-		<li><a href="">科学研究</a></li>
-		<li><a href="">对外交流</a></li>
-		<li><a href="">人才培养</a></li>
-		<li><a href="">历届校友</a></li>
-	</ul>
-</div>
+<center>
+<img src="/static/image/dianzixi-index.fw2.png" width=1178 height="10" style="display:block;"/>
+  <div class="header">
+  <div class="left"><a href="http://www.ncepu.edu.cn/"><img src="/static/image/1.png"></a></div>
+  <div class="right"><img src="/static/image/3.png" width="818" height="104"></div>
+  <div class="main"><a href="http://202.206.208.57/dianzi/"><img src="/static/image/2.png"></a></div>
+  </div>
+  <div class="Box">
+  <ul id="navigation"> 
+  <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> <a href="#">大学主页</a> 
+      <ul> 
+      <li><a href="#">保定主页</a></li> 
+      <li><a href="#">北京主页</a></li> 
+      </ul> 
+  </li> 
+  <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> <a href="#">院系概况</a> 
+      <ul> 
+      <li><a href="#">电子系简介</a></li> 
+      <li><a href="#">现任领导</a></li> 
+      <li><a href="#">机构设置</a></li> 
+      <li><a href="#">历任领导</a></li> 
+     </ul> 
+  </li>
+  <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> <a href="#">学科建设</a> 
+      <ul> 
+      <li><a href="#">教学成果</a></li> 
+      <li><a href="#">发表论文</a></li> 
+      <li><a href="#">工出版专著</a></li>  
+     </ul> 
+  </li> 
+  <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> <a href="#">师资队伍</a> 
+      <ul> 
+      <li><a href="#">博士生导师</a></li> 
+      <li><a href="#">硕士生导师</a></li> 
+      <li><a href="#">教授档案</a></li> 
+      </ul> 
+  </li>
+  <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> <a href="#">教育教学</a> 
+      <ul> 
+      <li><a href="#">学生概况</a></li> 
+      <li><a href="#">本科生培养方案</a></li> 
+      <li><a href="#">研究生培养方案</a></li> 
+      <li><a href="#">工程硕士培养</a></li> 
+      <li><a href="#">历届校友</a></li> 
+      </ul> 
+  </li> 
+  <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> <a href="#">科学研究</a> 
+      <ul> 
+      <li><a href="#">实验室建设</a></li> 
+      <li><a href="#">研究所</a></li> 
+      <li><a href="#">科研项目</a></li> 
+      <li><a href="#">科研成果</a></li> 
+     </ul> 
+  </li> 
+  <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> <a href="#">对外交流</a> </li>
+  <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> <a href="#">系党总支</a> 
+      <ul> 
+      <li><a href="#">学生工作</a></li> 
+      <li><a href="#">工会工作</a></li> 
+      </ul> 
+  </li> 
+  <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> <a href="#">新闻中心</a> 
+      <ul> 
+      <li><a href="#">新闻快讯</a></li> 
+      <li><a href="#">通知公告</a></li> 
+      <li><a href="#">院系文件</a></li> 
+      </ul>
+  </li>  
+  </ul>
+  </div> 
 
-<div class="content">
-{% block content %}{% endblock %}
-</div>
+  <div class="container">
+  {% block  content %}{% endblock %}
+  </div>
 
-<div class="divtable">
-	<table height="44" cellpadding="0" cellspacing="5px" border="0">
-	  <tr align="center" valign="middle">
-	    <th>大学首页</th>
-	    <th>新闻中心</th>
-	    <th>院系简介</th>
-	    <th>系党总支</th>
-	    <th>学科建设</th>
-	    <th>科学研究</th>
-	    <th>对外交流</th>
-	    <th>人才培养</th>
-	    <th>历届校友</th>
-	    <th>友情链接</th>
-	  </tr>
-      <tr>
-        <td align="center"><a href="http://www.ncepu.edu.cn/">北京校部</a></td>
-        <td align="center"><a href="http://202.206.208.57/dianzi/categoryNews.aspx?cat=0">电信快讯</a></td>
-        <td align="center"><a href="http://202.206.208.57/dianzi/yzzc.aspx">院长致辞</a></td>
-        <td>&nbsp;</td>
-        <td align="center"><a href="http://202.206.208.57/dianzi/scienceLook.aspx">教学成果</a></td>
-        <td align="center"><a href="http://202.206.208.57/dianzi/scienceLook.aspx">教学成果</a></td>
-        <td align="center"><a href="http://202.206.208.57/dianzi/scienceLook.aspx">教学成果</a></td>
-        <td align="center"><a href="http://202.206.208.57/dianzi/teacherYj.aspx">本科生教育</a></td>
-        <td>&nbsp;</td>
-        <td align="center"><a href="http://202.206.208.65/zsjy.aspx">招生信息网</a></td>
-      </tr>
-      <tr align="center">
-        <td><a href="http://net.ncepu.edu.cn/">保定校区</a></td>
-        <td><a href="http://202.206.208.57/dianzi/categoryNews.aspx?cat=1">通知公告</a></td>
-        <td><a href="http://www.ncepu.edu.cn/xxgk/32907.htm">历史沿革</a></td>
-        <td>&nbsp;</td>
-        <td><a href="http://202.206.208.57/dianzi/cslook1.aspx">发表论文</a></td>
-        <td><a href="http://202.206.208.57/dianzi/cslook1.aspx">发表论文</a></td>
-        <td><a href="http://202.206.208.57/dianzi/cslook1.aspx">发表论文</a></td>
-        <td><a href="http://202.206.208.57/dianzi/teachHigh.aspx">研究生教育</a></td>
-        <td>&nbsp;</td>
-        <td><a href="http://202.206.208.40/job/default.aspx">就业服务中心</a></td>
-      </tr>
-      <tr align="center">
-        <td><a href="http://english.ncepu.edu.cn/">ENGLISH</a></td>
-        <td><a href="http://202.206.208.57/dianzi/categoryNews.aspx?cat=2">工作总结</a></td>
-        <td><a href="http://202.206.208.57/dianzi/bmjj.aspx">部门介绍</a></td>
-        <td>&nbsp;</td>
-        <td><a href="http://202.206.208.57/dianzi/cslook2.aspx">出版专著</a></td>
-        <td><a href="http://202.206.208.57/dianzi/cslook2.aspx">出版专著</a></td>
-        <td>&nbsp;</td>
-        <td><a href="http://202.206.208.57/dianzi/teachersLook.aspx">师资队伍</a></td>
-        <td>&nbsp;</td>
-        <td><a href="http://59.67.225.73/jiaowuchu/">教务处</a></td>
-      </tr>
-      <tr align="center">
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td><a href="http://202.206.208.57/dianzi/ldbx.aspx">两地办学</a></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td><a href="http://202.206.208.57/dianzi/cslook3.aspx">出版教材</a></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr align="center">
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td><a href="http://202.206.208.57/dianzi/cslook4.aspx">研究项目</a></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+  <div class="divtable">
+    <table class="tableone">
+      <tr align="left" valign="middle">
+        <td width="5%">大学首页</td>
+        <td width="5%">院系概况</td>
+        <td width="5%">学科建设</td>
+        <td width="5%">师资队伍</td>
+        <td width="5%">教育教学</td>
+        <td width="5%">科学研究</td>
+        <td width="5%">对外交流</td>
+        <td width="5%">系党总支</td>
+        <td width="5%">新闻中心</td>
+        <td width="5%">友情链接</td>
       </tr>
     </table>
-</div>
-<div class="footer">
-    <span>访问量：12239098&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有&nbsp;&copy;&nbsp;华北电力大学电子与通信工程系</span>
-</div>
-</div>
-
+    <table class="tabletwo">
+      <tr align="left">
+        <td width="5%"  class="tablestyle"><a href="">保定主页</a></td>
+        <td width="5%"  class="tablestyle"><a href="">电子系简介</a></td>
+        <td width="5%"  class="tablestyle"><a href="">教学成果</a></td>
+        <td width="5%"  class="tablestyle"><a href="">博士生导师</a></td>
+        <td width="5%"  class="tablestyle"><a href="">学生概况</a></td>
+        <td width="5%"  class="tablestyle"><a href="">实验室建设</a></td>
+        <td width="5%"  class="tablestyle"></td>
+        <td width="5%"  class="tablestyle"><a href="">学生工作</a></td>
+        <td width="5%"  class="tablestyle"><a href="">新闻快讯</a></td>
+        <td width="5%"  class="tablestyle"><a href="">学生处</a></td>
+      </tr>
+      <tr align="left">
+        <td class="tablestyle"><a href="">北京主页</td>
+        <td class="tablestyle"><a href="">现任领导</a></td>
+        <td class="tablestyle"><a href="">发表论文</a></td>
+        <td class="tablestyle"><a href="">硕士生导师</a></td>
+        <td class="tablestyle"><a href="">本科生培养方案</a></td>
+        <td class="tablestyle"><a href="">研究所</a></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"><a href="">工会工作</a></td>
+        <td class="tablestyle"><a href="">通知公告</a></td>
+        <td class="tablestyle"><a href="">教务处</a></td>
+      </tr>
+      <tr align="left">
+        <td class="tablestyle"></td>
+        <td class="tablestyle"><a href="">机构设置</a></td>
+        <td class="tablestyle"><a href="">出版专著</a></td>
+        <td class="tablestyle"><a href="">教授档案</a></td>
+        <td class="tablestyle"><a href="">研究生培养方案</a></td>
+        <td class="tablestyle"><a href="">科研项目</a></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"><a href="">院系文件</a></td>
+        <td class="tablestyle"></td>
+      </tr>
+      <tr align="left">
+        <td class="tablestyle"></td>
+        <td class="tablestyle"><a href="">历任领导</a></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"><a href="">工程硕士培养</a></td>
+        <td class="tablestyle"><a href="">科研成果</a></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"></td>
+      </tr>
+      <tr align="left">
+        <td class="tablestyle"></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"><a href="">历届校友</a></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"></td>
+        <td class="tablestyle"></td>
+      </tr>
+    </table>
+  </div>
+  <div id="footer">
+    <pre id="footer">访问量：12239098      版权所有&nbsp;&copy;&nbsp;华北电力大学电子与通信工程系     技术支持：Spinel Studio        
+</pre>
+  </div>
+</center>
 </body>
-
 </html>

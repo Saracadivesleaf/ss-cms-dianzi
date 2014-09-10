@@ -20,7 +20,7 @@
 .scrDotList span{display:inline-block;width:10px;height:10px;background:#000000;cursor:pointer;font-size:0;line-height:0;vertical-align:top;font-size: 0px;margin: 0 5px;}
 .scrDotList span.on{background:#49cff1;}
 
-a.scrArrAbsLeft{position:absolute;left:0;bottom:0px;width:75px;height:75px;background:url(../images/0813_ent_zyc_images_v2.png) 0px -136px no-repeat;cursor:pointer;}
+a.scrArrAbsLeft{position:absolute;left:0;bottom:0px;width:75px;height:75px;background:url(/static/image/0813_ent_zyc_images_v2.png) 0px -136px no-repeat;cursor:pointer;}
 a.scrArrAbsLeft:hover{background-position: 0 -217px;}
 a.scrArrAbsRight{
 	position: absolute;
@@ -28,7 +28,7 @@ a.scrArrAbsRight{
 	bottom: 0px;
 	width: 75px;
 	height: 75px;
-	background: url(../images/0813_ent_zyc_images_v2.png) no-repeat -83px -136px;
+	background: url(/static/image/0813_ent_zyc_images_v2.png) no-repeat -83px -136px;
 	cursor: pointer;
 }
 a.scrArrAbsRight:hover{background-position: -83px -217px;}/* CSS Document */
