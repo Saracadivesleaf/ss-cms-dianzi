@@ -1,6 +1,7 @@
 #coding=utf-8
 from django.db import models
 from category.models import Category
+from tinymce.models import HTMLField
 
 # Create your models here.
 class Article(models.Model):
@@ -15,7 +16,8 @@ class Article(models.Model):
 	author = models.CharField(max_length = 30, blank=True, null=True, verbose_name = u'作者')
 	publish_time = models.DateTimeField(auto_now_add = True, verbose_name = u'发表时间')
 	update_time = models.DateTimeField(auto_now = True, verbose_name = u'更新时间')
-	content = models.TextField(verbose_name = u'文章内容')
+#	content = models.TextField(verbose_name = u'文章内容')
+	content = HTMLField(verbose_name=u'文章内容')
 	classify = models.ForeignKey(Category, verbose_name = u'分类')
 	page_view = models.IntegerField(null = True, verbose_name = u'访问量')
 
