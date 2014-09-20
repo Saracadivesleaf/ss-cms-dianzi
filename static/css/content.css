@@ -18,7 +18,7 @@ body{
 /*内容块1电信快讯*/
 #one{
 	margin-top: 40px;
-	width: 1178px;
+	width: 980px;
 	height: 210px;
 }
 #titleone{
@@ -32,14 +32,14 @@ body{
 /*左栏部分*/
 #divone{
 	left: 0px;
-    width: 570px;
+    width: 50%;
 	height: 170px;
 	float: left; 
 	font-size: 36px;
 }
 #divonef{
 	background-image: url(/static/image/6.png); 
-    margin: 40px 30px 30px 30px; 
+    margin: 40px 10px 30px 30px; 
 	color: #FFF; width: 80px; 
 	height: 100px; 
 	float: left;
@@ -57,11 +57,11 @@ body{
 	margin-top: 5px;
 }
 #divones{
-	width: 370px; 
+	width: 360px; 
 	height: 130px; 
 	float: right; 
 	margin-top: 40px; 
-	margin-right: 50px;
+	margin-right: 10px;
 }
 #divones #onetitle {
 	font-size: 16px;
@@ -84,13 +84,13 @@ body{
 }
 /*右栏部分*/
 #divtwo{
-	width: 570px; 
+	width: 50%; 
 	height: 170px; 
 	float: right;
 }
 #divtwof{
 	background-image: url(/static/image/6.png); 
-	margin: 40px 30px 30px 30px; 
+	margin: 40px 10px 30px 30px; 
 	color: #FFF; width: 80px; 
 	height: 100px; 
 	float: left;
@@ -111,11 +111,11 @@ body{
 	color: #FFFFFF;
 }
 #divtwos{
-	width: 370px; 
+	width: 360px; 
 	height: 130px; 
 	float: right; 
 	margin-top: 40px; 
-	margin-right: 50px;
+	margin-right: 10px;
 }
 #divtwos #twotitle {
 	font-family: "微软雅黑";
@@ -137,12 +137,12 @@ body{
 }
 /*内容块2*/
 .CenterDiv{
-	width:1178px;
+	width:980px;
 	height:240px;
 }
 /*左边栏快捷导航*/
 .CDleft{
-	width:570px;
+	width:50%;
 	height:240px;
 	float:left;
 }
@@ -154,12 +154,12 @@ body{
 	line-height: 20px;
 	color: #00468C;
 	text-align: left;
-	text-indent: 0.8cm;
+	text-indent: 30px;
 	margin:0;
 }
 .lead{
 	width: 490px;
-	margin: 20px 30px 30px 20px;
+	margin: 20px 30px 30px 10px;
 	height: 160px;
 }
 .lead table tr {
@@ -171,7 +171,7 @@ body{
 }
 /*右边栏通知公告*/
 .CDright{
-	width:570px;
+	width:50%;
 	height:240px;
 	float:right;
 }
@@ -187,7 +187,7 @@ body{
 	margin:0;
 }
 .TZleft{
-	width: 300px;
+	width: 70%;
 	float: left;
 	height: 160px;
 	padding: 30px 30px 30px 35px;
@@ -196,8 +196,14 @@ body{
 	line-height: 20px;
 	text-align: left;
 }
+
+.TZleft li {
+	text-indent: 5px;
+}
+
+
 .TZright{
-	width:140px;
+	width:13%;
 	float:right;
 	height:160px;
 	padding-bottom:30px;
@@ -205,23 +211,23 @@ body{
 	font-family: "微软雅黑";
 	font-size: 12px;
 	line-height: 20px;
-	text-align: left;
+	text-align: right;
 }
 /*内容块3*/
 #two{
-	width: 1178px; 
+	width: 980px; 
 	height: 200px; 
 	color: #000; 
 	margin-top: 0px;
 }
 /*左边栏学生工作*/
 #divthree{
-	width: 570px;
+	width: 50%;
     height: 200px; 
 	float: left;
 }
 #divthreef{
-	width:400px; 
+	width:70%; 
 	height: 190px; 
 	float: left; 
 	margin:0px;
@@ -235,7 +241,7 @@ body{
 	text-indent: 0.8cm;
 }
 #divthreeful {
-	width: 300px;
+	width: 100%;
 	font-family: "微软雅黑";
 	font-size: 14px;
 	line-height: 20px;
@@ -243,27 +249,41 @@ body{
 	text-align: left;
 	margin: 0px;
 	padding-top:30px;
-	padding-left:0px;
+	padding-left:35px;
 	padding-right:30px;
 	padding-bottom:30px;
 }
+
+#divthreeful ul {
+	width: 100%;
+	height: 100px;
+	margin: 0;
+}
+
 #divthrees{
 	line-height: 20px; 
 	font-size: 12px; 
 	font-family:'微软雅黑'; 
-	width: 140px; 
+	width: 13%; 
 	height: 140px; 
 	float: right; 
-	padding-top: 50px;
+	padding-top: 35px;
 }
+
+#divthrees ul {
+	width: 100%;
+}
+
+
+
 /*右边栏学科建设*/
 #divfour{
-	width:570px; 
+	width:50%;
 	height: 200px; 
 	float: right;
 }
 #divfourf{
-	width: 400px; 
+	width: 70%;
 	height: 190px; 
 	float: left; 
 	margin:0px;
@@ -277,7 +297,7 @@ body{
 	text-indent: 0.8cm;
 }
 #divfourful{
-	width: 300px;
+	width: 100%;
 	font-family: "微软雅黑";
 	font-size: 14px;
 	line-height: 20px;
@@ -285,7 +305,7 @@ body{
 	text-align: left;
 	margin: 0px;
 	padding-top:30px;
-	padding-left:0px;
+	padding-left:35px;
 	padding-right:30px;
 	padding-bottom:30px;
 }
@@ -294,9 +314,9 @@ body{
 	line-height: 20px; 
 	font-size: 12px; 
 	font-family: '微软雅黑'; 
-	width: 140px; 
+	width: 13%; 
 	height: 140px; 
 	float: right; 
-	padding-top: 50px;
+	padding-top: 35px;
 }
 

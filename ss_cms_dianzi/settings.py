@@ -39,7 +39,8 @@ INSTALLED_APPS = (
 #    'django.contrib.sites',
     'category',
     'article',
-    'tinymce',
+#    'tinymce',
+    'DjangoUeditor',
     'grappelli',
     'filebrowser',
 )
@@ -109,5 +110,14 @@ TEMPLATE_DIRS = (
     )
 
 # TinyMCE
-TINYMCE_JS_URL = os.path.join(STATIC_URL, "tinymce/tinymce.min.js")
-
+#TINYMCE_JS_URL = os.path.join(STATIC_URL, "tiny_mce/tiny_mce.js")
+#TINYMCE_DEFAULT_CONFIG = {
+#    'plugins': "table,paste,searchreplace,autoresize",
+#    'toolbar': "fontselect fontsizeselect | formatselect removeformat",
+#    'theme': "advanced",
+#    'cleanup_on_startup': True,
+#    'custom_undo_redo_levels': 10,
+#    'width': 700,
+#    'autoresize_min_height': 600,
+#    'resize': 'vertical',
+#}

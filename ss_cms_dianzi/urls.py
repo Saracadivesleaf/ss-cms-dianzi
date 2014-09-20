@@ -21,7 +21,8 @@ urlpatterns = patterns('',
 
     url(r'^article/$', show_article),
     url(r'^list/', include('category.urls')),
-    url(r'^tinymce/', include('tinymce.urls')),
+#    url(r'^tinymce/', include('tinymce.urls')),
+    url(r'^ueditor/',include('DjangoUeditor.urls' )),
 )
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

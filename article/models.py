@@ -1,7 +1,8 @@
 #coding=utf-8
 from django.db import models
 from category.models import Category
-from tinymce.models import HTMLField
+#from tinymce.models import HTMLField
+from DjangoUeditor.models import UEditorField
 
 # Create your models here.
 class Article(models.Model):
@@ -17,7 +18,8 @@ class Article(models.Model):
 	publish_time = models.DateTimeField(auto_now_add = True, verbose_name = u'发表时间')
 	update_time = models.DateTimeField(auto_now = True, verbose_name = u'更新时间')
 #	content = models.TextField(verbose_name = u'文章内容')
-	content = HTMLField(verbose_name=u'文章内容')
+#	content = HTMLField(verbose_name=u'文章内容')
+	content = UEditorField(verbose_name=u'内容',width=600, height=300, toolbars="full")
 	classify = models.ForeignKey(Category, verbose_name = u'分类')
 	page_view = models.IntegerField(null = True, verbose_name = u'访问量')
 
