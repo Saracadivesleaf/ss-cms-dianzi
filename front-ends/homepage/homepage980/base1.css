@@ -1,0 +1,160 @@
+*{
+	list-style-type: none;
+	margin: 0 px;
+	padding:0;
+}
+a,img{
+	border: 0;
+}
+a{color:#3b3b3b;text-decoration:none;font-family:"微软雅黑";}
+a:hover{
+	text-decoration:none;
+	color:#00468C;
+}
+body{
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-family:"微软雅黑","宋体";
+}
+.picturebox{
+	background-image:url(images/4.png);
+	margin:0;
+	width:980px;
+	height:10px;
+}
+/*三栏div背景*/
+.header
+{
+	width: 980px;
+	height: 104px;
+	margin-top: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #00468C;
+}
+.left
+{
+	width:92px;
+	height:104px;
+	float:left;
+	margin:0px;
+	background-image:url(images/1.png);
+}
+.right
+{
+	width:639px;
+	height:104px;
+	float:right;
+	margin:0px;
+	background-image:url(images/3.png);
+}
+.main
+{
+}
+/*导航条部分*/
+.Box{
+	margin:0 auto;
+	width:980px;
+	padding-left:60px;
+	height:35px;
+} 
+#navigation { 
+    margin:0; 
+    font-family:"微软雅黑";
+    list-style-type:none; 
+} 
+#navigation li { 
+    float:left; 
+    text-align:center; 
+    position:relative; 
+    font-family:"微软雅黑"; 
+    font-size:16px; 
+    width:100px; 
+    height:35px; 
+    line-height:35px; 
+} 
+#navigation li a:link, #navigation li a:visited { 
+    display:block; 
+    text-decoration:none; 
+    color:#000; 
+    border:0;  
+    background:#FFF; 
+    padding-left:10px; 
+} 
+#navigation li a:hover { 
+    color:#FFF; 
+    background:#00468C; 
+}
+/*导航条下拉菜单*/
+#navigation li ul { 
+    border:1.5px solid #00468C;
+    display:none; 
+    position:absolute; 
+    z-index:2;   
+    width:128px; 
+    list-style-type:none;
+}
+#navigation li ul li{
+	font-size:13px;
+	height:25px;
+	line-height:25px;
+	width:129.5px;
+	text-align:left;
+	text-indent:0.3cm;
+	border-right:1.5px solid #00468C
+
+}  
+#navigation li ul li a:hover { 
+    color:#000; 
+    background:#C6E2FF; 
+}  
+/*导航地图*/
+.divtable {
+	background-color: #DDDDDD;
+	height: 200px;
+	width: 980px;
+	margin: 0 auto;
+	font-family:"微软雅黑";
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+.tableone {
+	color: #00468C;
+	font-family: "微软雅黑";
+	width:90%; 
+	height:34;
+	border:0;
+	cellspacing:5;
+	font-size:16px;
+	margin-top:10px;
+}
+.tabletwo{
+	width:90%;
+	height:125px; 
+	border:0; 
+	cellspacing:5;
+	color:#333;
+	font-family:"微软雅黑";
+	font-size:12px;
+
+}
+.tablestyle {
+	font-size: 12px;
+	color: #000;
+}
+/*页脚*/
+#footer {
+	background-color: #00468C;
+	height: 30px;
+	width:980px;
+	margin:0px;
+}
+#footer pre {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	line-height: 30px;
+	color: #FFF;
+	text-align: right;
+	text-indent:1cm;
+}
+	
