@@ -10,7 +10,8 @@ img
 }
 div
 {
-	word-wrap: break-word; word-break: normal;
+	word-wrap: break-word; 
+	word-break: normal;
 }
 body
 {
@@ -28,11 +29,11 @@ body
 }
 
 
-div.main-title
+/**************************aside*********************************/
+.aside
 {
-	clear: left;
 	float: left;
-	width: 27%;
+	width: 265px;
 	margin-left: 3%;
 	position: relative;
 	z-index:999;
@@ -115,15 +116,21 @@ div.bottom
 {
 	background-color: #B0E0E6;
 }
+
+/***********************article***************************/
 .lighter
 {
 	background-color: #E0E0E0;
 }
+.article
+{
+	float: right;
+	margin-bottom: 25px;
+}
 .content
 {
 	float: right;
-	width: 62%;
-	margin: 50px 28px 30px 30px;
+	margin: 50px 20px 30px 20px;
 }
 .content a:link , .content a:visited
 {
@@ -192,12 +199,12 @@ table
 {
 	border-bottom: solid 2px #006699;
 }
-
+/*********************pager*******************************/
 .pager
 {
-	width: 24%;
+	width: 38%;
 	height: 70px;
-	margin-left: 58%;
+	margin-left: 38%;
 	color: #000;
 }
 .pager li
@@ -225,5 +232,9 @@ table
 	text-decoration: none;
 	border: #000099 solid 1px;
 }
-
+/**************此div块用于消除float影响下div高度不能自适应的问题**************/
+.correction
+{
+	clear: both;
+}
 
