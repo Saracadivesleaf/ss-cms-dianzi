@@ -19,7 +19,11 @@ body
 	margin: 0 auto 0 auto;
 	font-size: 12px;
 }
-
+.container
+{
+	width: 100%;
+	min-height: 200px;
+}
 .top-picture , .top-picture img
 {
 	width: 980px;
