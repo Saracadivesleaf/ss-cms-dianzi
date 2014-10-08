@@ -14,4 +14,4 @@ def show_article(request, article_id = 1):
 		'article': article,
 	}
 
-	return render_to_response('article.html', context)
+	return render_to_response('article.html')

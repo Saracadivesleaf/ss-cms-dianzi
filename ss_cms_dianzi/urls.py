@@ -21,6 +21,7 @@ urlpatterns = patterns('',
 
     url(r'^article/$', show_article),
     url(r'^list/', include('category.urls')),
+    url(r'^sci/', include('science.urls')),
 #    url(r'^tinymce/', include('tinymce.urls')),
     url(r'^ueditor/',include('DjangoUeditor.urls' )),
 )

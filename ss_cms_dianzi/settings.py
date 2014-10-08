@@ -39,6 +39,7 @@ INSTALLED_APPS = (
 #    'django.contrib.sites',
     'category',
     'article',
+    'science',
 #    'tinymce',
     'DjangoUeditor',
     'grappelli',
