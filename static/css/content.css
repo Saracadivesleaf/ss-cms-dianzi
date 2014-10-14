@@ -1,20 +1,3 @@
-*{
-	list-style-type: none;
-	margin: 0 px;
-	padding:0;
-}
-a,img{
-	border: 0;
-}
-a{color:#3b3b3b;text-decoration:none;font-family:"微软雅黑";}
-a:hover{
-	text-decoration:none;
-	color:#00468C;
-}
-body{
-	font-family:Arial, Verdana, Helvetica, sans-serif;
-	font-family:"微软雅黑","宋体";
-}
 /*内容块1电信快讯*/
 #one{
 	margin-top: 40px;
@@ -167,8 +150,12 @@ body{
 	font-size: 16px;
 	color: #FFF;
 	background-color: #00468C;
-	line-height:0px;
 }
+
+.lead td {
+	padding: 0 5px;
+}
+
 /*右边栏通知公告*/
 .CDright{
 	width:50%;
