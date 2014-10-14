@@ -2,5 +2,5 @@
 from django.conf.urls import patterns, include, url
 
 urlpatterns = patterns('science.views',
-	url(r'^$', 'science'),
+	url(r'^$', 'get_progect_by_category'),
 	)

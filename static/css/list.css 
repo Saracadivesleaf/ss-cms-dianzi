@@ -1,0 +1,222 @@
+.top-picture , .top-picture img
+{
+	width: 980px;
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/**************************aside*********************************/
+.aside
+{
+	float: left;
+	width: 265px;
+	margin-left: 3%;
+	position: relative;
+	z-index:999;
+	top:-110px;
+}
+
+.title
+{
+	width: 110%;
+	height: 140px;
+	background-color: #006699;
+}
+div.top
+{
+	width: 83%;
+	height:55px;
+	margin-left: 40px;
+	border-bottom: #FFFFFF solid 2px;
+	font-size: 30px;
+	font-family: "微软雅黑","黑体";
+	color: #FFFFFF;
+	text-align: right;
+	position: relative;
+	top: 55px;
+}
+div.bottom
+{
+	width: 83%;
+	height: 15px;
+	margin-left: 40px;
+	font-size: 12px;
+	color: #C0C0C0;
+	text-align: right;
+	position: relative;
+	top: 65px;
+}
+
+.listing  li
+{
+	list-style-type: none;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 17px;
+	color:#000000;
+	font-family: "微软雅黑";
+}
+.listing
+{
+	border-left:#006699 solid 2px;
+	width: 70%;
+	float: left;
+}
+
+.listing a
+{
+	height: 30px;
+	display: block;
+	padding-top: 11px;
+	text-decoration: none;
+	color: #000099;
+}
+.listing a:hover
+{
+	display: block;
+	font-weight: bold;
+	border-left:solid 4px #FF0;
+	text-decoration: none;
+}
+.listing a:active
+{
+	display: block;
+	font-weight: bold;
+	border-left:solid 4px #FF0;
+	color:#000;
+}
+.white
+{
+	background-color: #FFFFFF;
+}
+.blue
+{
+	background-color: #B0E0E6;
+}
+
+/***********************article***************************/
+.lighter
+{
+	background-color: #E0E0E0;
+}
+.article
+{
+	float: right;
+	margin-bottom: 25px;
+	width: 65%;
+}
+.content
+{
+	float: right;
+	margin: 50px 20px 30px 20px;
+	width: 100%;
+}
+.content a:link , .content a:visited
+{
+	text-decoration: none;
+	color: #000000;
+}
+.content a:hover, .content a:active
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+.content table
+{
+	border-collapse: collapse;
+	border: 0;
+	width: 100%;
+}
+.caption-article
+{
+	width: 68%;
+	text-align: left;
+	padding-left: 13px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.caption-author
+{
+	width: 14%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+.caption-date
+{
+	width: 17%;
+	text-align: right;
+	padding-right: 4px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.content tr
+{
+	width: 100%;
+	height: 35px;
+}
+.article-name
+{
+	width: 68%;
+	text-align: left;
+	padding-left: 10px;
+	
+}
+.author-name
+{
+	width: 11%;
+	text-align: center;
+	margin-right: 33.3%;
+}
+.article-date
+{
+	width: 100px;
+	text-align: right;
+	padding-right: 5px;
+}
+.list-caption
+{
+	border-bottom: solid 2px #006699;
+}
+/*********************pager*******************************/
+.pager
+{
+	width: 38%;
+	height: 70px;
+	color: #000;
+}
+.pager li
+{
+	list-style-type: none;
+	float: left;
+	width: 10%;
+	height:19px;
+	text-align: center;
+	margin-right: 2px;
+}
+
+.number-page a:link , .number-page a:visited
+{
+	text-decoration: none;
+	display: block;
+	border: #000099 solid 1px;
+}
+.number-page a:hover,  .number-page a:active , .page-turning a
+{
+	display: block;
+	background-color: #006699;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	border: #000099 solid 1px;
+}
+/**************此div块用于消除float影响下div高度不能自适应的问题**************/
+.correction
+{
+	clear: both;
+}
+
