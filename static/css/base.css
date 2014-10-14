@@ -85,7 +85,7 @@ body {
 	border: 1.5px solid #00468C;
 	display: none;
 	position: absolute;
-	z-index: 2;
+	z-index: 1000;
 	width: 132px;
 	list-style-type: none;
 }
