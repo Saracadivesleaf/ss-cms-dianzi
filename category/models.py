@@ -11,7 +11,7 @@ class Category(models.Model):
 
 	id = models.AutoField(primary_key=True)
 	category_name = models.CharField(max_length=30, verbose_name=u'类别名')
-	parent_category = models.IntegerField(null=True, verbose_name=u'父类别')
+	parent_category = models.ForeignKey('Category', null=True, blank=True, verbose_name=u'父类别')
 
 	def __unicode__(self):
 		return self.category_name
